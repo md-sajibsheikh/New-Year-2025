@@ -1,0 +1,41 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  
+  font-family: Merriweather;
+}
+
+.contenar {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.contenar h3 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+}
+.contenar h1 {
+  color: #ffffff;
+  font-size: 72px;
+  font-weight: 800;
+}
+
+.banner-text{
+    margin: o auto;
+    padding-top: 220px;
+    text-align: center;
+    
+  
+}
+header {
+  margin-bottom: 120px;
+}
+
+#banner-area {
+    height: 600px;
+    margin-top: 40px;
+    border-radius: 16px;
+    background-image: url(./resources/Banner\ Image.png);
+}
