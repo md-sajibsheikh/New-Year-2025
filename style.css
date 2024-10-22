@@ -7,7 +7,7 @@
 }
 
 .contenar {
-  max-width: 1080px;
+  max-width: 1290px;
   margin: 0 auto;
 }
 .contenar h3 {
@@ -117,10 +117,7 @@ header {
   fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
 }
 
-.Group-img img{
-
-
-
+.Group-img img {
   fill: linear-gradient(
     168deg,
     #f2d977 3.29%,
@@ -141,41 +138,128 @@ header {
   );
 }
 
+.hotel {
+  margin-bottom: 30px;
 
-.hotel{
-margin-bottom: 30px;
-
-text-align: center;
-margin-top: 500px;
+  text-align: center;
+  margin-top: 500px;
   background-color: #ffeded;
-margin: 0 auto;
+  margin: 0 auto;
   width: 1080px;
-height: 400px;
-flex-shrink: 0;
-fill: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  height: 400px;
+  flex-shrink: 0;
+  fill: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
 }
-.hotel-text{
-  padding-top:100px;
+.hotel-text {
+  padding-top: 100px;
   color: #070211;
-font-family: Inter;
-font-size: 32px;
-font-style: normal;
-font-weight: 600;
-line-height: 56px;
-text-transform: capitalize;
+  font-family: Inter;
+  font-size: 32px;
+
+  text-transform: capitalize;
 }
-.hotel span{
+.hotel span {
   color: #f00;
 }
-.btn-1{
+.btn-1 {
   margin-top: 50px;
   color: white;
   text-decoration: none;
   display: inline-flex;
-padding: 16px 32px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-border-radius: 8px;
-background: #F00;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #f00;
+}
+
+.come {
+  margin-top: 200px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: o auto;
+  margin-left: 60px;
+}
+.come-left {
+  width: 32%;
+  margin: o auto;
+  text-align: start;
+}
+.come-left h4 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: start;
+}
+
+.come-left h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.come-left p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+.come-mid {
+  width: 40%;
+  margin: o auto;
+  margin-top: -90px;
+}
+.come-right {
+  width: 30%;
+  margin: o auto;
+  margin-top: -8px;
+}
+.come-right h2 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  margin-left: 20%;
+}
+
+.come-right p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+.come-right svg {
+  width: 140px;
+  height: 140px;
+  flex-shrink: 0;
+}
+
+.come-mid img {
+  width: 364.844px;
+  height: 364.844px;
+  flex-shrink: 0;
+  width: 400px;
+  height: 400px;
+  flex-shrink: 0;
+  border-radius: 463px;
+  border: 15px solid #f00;
+  padding: 28px;
 }
