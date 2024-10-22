@@ -380,3 +380,53 @@ header {
   flex-shrink: 0;
   position: relative;
 }
+
+.grift{
+  margin-top: 100px;
+  
+  
+}
+.grift-left h2{
+  margin-bottom: 40px;
+  margin-left: 9%;
+}
+.grift-left h4{
+  color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 40px;
+  margin-left: 9%;
+}
+.grift-left{
+  color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.grift-left p{
+  color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+width: 896px;
+margin-bottom: 40px;
+  margin-left: 9%;
+}
+
+
+.grift-right{
+  display: grid;
+ width: 80%;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 10px; 
+    margin: 0 auto;
+}
